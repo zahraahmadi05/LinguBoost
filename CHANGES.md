@@ -17,3 +17,7 @@
 ### Create welcome page ✅
 
 ### Add js for welcome page ✅
+
+## 11/10/2026
+
+### Create home page
