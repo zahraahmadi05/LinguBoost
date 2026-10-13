@@ -21,3 +21,11 @@
 ## 11/10/2026
 
 ### Create home page
+
+## 12/10/2026
+
+### Saved name retrieval: Reads the user's saved name from localStorage.
+
+### Personalized display: Shows the saved name in place of the user's default username.
+
+### Goal bar: The bar's width updates dynamically as the numbers change, and the numbers themselves update over time.
