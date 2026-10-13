@@ -12,6 +12,17 @@ const goalFill = document.getElementById("goal-fill");
 const goalCount = document.getElementById("goal-count");
 const addBtn = document.getElementById("add-btn");
 
+const goalProgress = document.getElementById("goal-progress");
+const goalDone = document.getElementById("goal-done");
+
+const today = new Date().toDateString();
+const savedDate = localStorage.getItem("learnedDate");
+
+if (savedDate !== today) {
+  localStorage.setItem("learned", 0);
+  localStorage.setItem("learnedDate", today);
+}
+
 const savedLearned = localStorage.getItem("learned");
 let learned = Number(savedLearned) || 0;
 const goal = 10;
@@ -22,6 +33,14 @@ function updatGoal() {
 
   goalFill.style.width = `${percent}%`;
   goalCount.textContent = `${learned}/${goal}`;
+
+  if (learned >= goal) {
+    goalProgress.classList.add("hidden");
+    goalDone.classList.remove("hidden");
+  } else {
+    goalProgress.classList.remove("hidden");
+    goalDone.classList.add("hidden");
+  }
 }
 
 addBtn.addEventListener("click", function () {
