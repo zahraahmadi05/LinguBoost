@@ -1,4 +1,4 @@
-6/10/2026
+# 6/10/2026
 
 ## Create the folders ✅
 
@@ -8,7 +8,7 @@
 
 ## Push the folders to the Github repository ✅
 
-10/10/2026
+# 10/10/2026
 
 ## Create wrapper page ✅
 
@@ -16,11 +16,11 @@
 
 ## Add js for welcome page ✅
 
-11/10/2026
+# 11/10/2026
 
 ## Create home page
 
-12/10/2026
+# 12/10/2026
 
 ## Saved name retrieval: Reads the user's saved name from localStorage.
 
@@ -28,7 +28,7 @@
 
 ## Goal bar: The bar's width updates dynamically as the numbers change, and the numbers themselves update over time.
 
-13/10/2026
+# 13/10/2026
 
 ## Goal completion: When the learned count reaches the goal, the card content (title, description, chart, numbers) is hidden and a congratulations message is shown instead.
 
