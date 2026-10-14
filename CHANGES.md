@@ -33,3 +33,9 @@
 ## Goal completion: When the learned count reaches the goal, the card content (title, description, chart, numbers) is hidden and a congratulations message is shown instead. ✅
 
 ## Learned-word dates: Each learned word is stamped with the date it was learned. If the app is opened on another day, previously learned words keep their original dates (e.g. yesterday's words stay dated yesterday). ✅
+
+# 13/10/2026
+
+## Designed profile page in figma
+
+## Create user-profile.html file
