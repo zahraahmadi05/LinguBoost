@@ -11,5 +11,6 @@ done.addEventListener("click", function (e) {
   } else {
     localStorage.setItem("userName", nameValue);
     window.location.href = "home.html";
+    localStorage.setItem("joinDate");
   }
 });
