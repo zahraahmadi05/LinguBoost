@@ -34,8 +34,18 @@
 
 ## Learned-word dates: Each learned word is stamped with the date it was learned. If the app is opened on another day, previously learned words keep their original dates (e.g. yesterday's words stay dated yesterday). ✅
 
-# 13/10/2026
+# 14/10/2026
 
-## Designed profile page in figma
+## Designed profile page in figma ✅
 
-## Create user-profile.html file
+## Create user-profile.html file ✅
+
+# 15/10/2026
+
+## Create profile page ✅
+
+# 17/10/2026
+
+## Displaying the username in the user profile section and changing the username ✅
+
+## Displaying the date the user joined the app ✅
