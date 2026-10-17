@@ -17,12 +17,14 @@
     <main class="mx-auto w-full max-w-md min-h-dvh bg-white">
       <section class="min-h-dvh flex flex-col p-6 pb-20">
         <header class="flex flex-col">
-          <img
-            id="back-btn"
-            src="icons/arrow-left.svg"
-            alt=""
-            class="w-8 h-8 mb-4"
-          />
+          <a href="home.html">
+            <img
+              id="back-btn"
+              src="icons/arrow-left.svg"
+              alt=""
+              class="w-8 h-8 mb-4"
+            />
+          </a>
           <h1 class="text-[#28053E] text-2xl">Profile</h1>
           <span class="text-[#918098] text-base"
             >Your learning journey, your way🌱</span
@@ -92,9 +94,7 @@
               <img src="icons/calendar.svg" alt="" class="w-7 h-7" />
             </div>
             <div class="flex flex-col">
-              <span id="join-date" class="text-[#1E0367] text-xl"
-                >Join Date</span
-              >
+              <span class="text-[#1E0367] text-xl">Join Date</span>
               <p class="text-[#A687AC] text-base">You joined LinguBoost on</p>
             </div>
           </div>
@@ -102,7 +102,7 @@
             class="bg-[#CCF3F9] w-full h-12 rounded-full mt-6 flex items-center px-5 gap-4"
           >
             <img src="icons/calendar.svg" alt="" class="w-7 h-7 shrink-0" />
-            <span class="text-lg text-[#210480]">Oct 15, 2026</span>
+            <span id="join-date" class="text-lg text-[#210480]"></span>
             <img src="icons/lock.svg" alt="" class="w-7 h-7 shrink-0 ml-auto" />
           </div>
         </div>
