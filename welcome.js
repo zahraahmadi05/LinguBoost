@@ -1,10 +1,5 @@
-const backBtn = document.getElementById("back-btn");
 const userName = document.getElementById("name");
 const done = document.getElementById("done-btn");
-
-backBtn.addEventListener("click", function () {
-  window.location.href = "index.html";
-});
 
 const joinDate = new Date().toDateString();
 
