@@ -1,6 +1,11 @@
 const profileNameEl = document.getElementById("profile-name");
 const joinDateEl = document.getElementById("join-date");
 const nameProfileEl = document.getElementById("name-value");
+const editNameEl = document.getElementById("edit-name");
+const nameSheetEl = document.getElementById("name-sheet");
+const nameFormEl = document.getElementById("name-form");
+const closeSheetEl = document.getElementById("close-sheet");
+const nameInputEl = document.getElementById("name-input");
 
 const userProfName = localStorage.getItem("userName");
 if (userProfName === null) {
@@ -11,7 +16,6 @@ if (userProfName === null) {
 }
 
 const savedJoinDate = localStorage.getItem("joinDate");
-
 if (savedJoinDate === null) {
   joinDateEl.textContent = "Unknown";
 } else {
@@ -23,3 +27,7 @@ if (savedJoinDate === null) {
   });
   joinDateEl.textContent = formatted;
 }
+
+editNameEl.addEventListener("click", function () {
+  nameSheetEl.classList.remove("hidden");
+});
