@@ -1,9 +1,4 @@
-const backBtn = document.getElementById("back-btn");
 const userNameEl = document.getElementById("user-name");
-
-backBtn.addEventListener("click", function () {
-  window.location.href = "welcome.html";
-});
 
 const savedName = localStorage.getItem("userName");
 
