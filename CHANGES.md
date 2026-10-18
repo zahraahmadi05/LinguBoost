@@ -49,3 +49,9 @@
 ## Displaying the username in the user profile section and changing the username ✅
 
 ## Displaying the date the user joined the app ✅
+
+# 18/10/2026
+
+## Changing the name with a pannle
+
+## Level section with a checkmark and border
