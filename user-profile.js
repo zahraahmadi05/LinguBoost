@@ -66,3 +66,32 @@ nameFormEl.addEventListener("click", function (e) {
 
   closeSheet();
 });
+
+const levelCards = document.querySelectorAll("[data-level]");
+
+const ringColors = {
+  beginner: "ring-[#11700c]",
+  intermediate: "ring-[#1b0a5e]",
+  advanced: "ring-[#590571]",
+};
+
+function showLevel() {
+  const savedLevel = localStorage.getItem("level");
+
+  levelCards.forEach(function (card) {
+    const isSelected = card.dataset.level === savedLevel;
+    const checkEl = card.querySelector("[data-check]");
+    card.classList.toggle("ring-2", isSelected);
+    card.classList.toggle(ringColors[card.dataset.level], isSelected);
+    checkEl.classList.toggle("hidden", !isSelected);
+  });
+}
+
+levelCards.forEach(function (card) {
+  card.addEventListener("click", function () {
+    localStorage.setItem("level", card.dataset.level);
+    showLevel();
+  });
+});
+
+showLevel();
