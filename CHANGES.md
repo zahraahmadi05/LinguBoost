@@ -1,24 +1,24 @@
 # 6/10/2026
 
-## Create the folders ✅
+## Create the folders. ✅
 
-## Install Tailwind ✅
+## Install Tailwind. ✅
 
-## Create the project repository on Github ✅
+## Create the project repository on Github. ✅
 
-## Push the folders to the Github repository ✅
+## Push the folders to the Github repository. ✅
 
 # 10/10/2026
 
-## Create wrapper page ✅
+## Create wrapper page. ✅
 
-## Create welcome page ✅
+## Create welcome page. ✅
 
-## Add js for welcome page ✅
+## Add js for welcome page. ✅
 
 # 11/10/2026
 
-## Create home page ✅
+## Create home page. ✅
 
 # 12/10/2026
 
@@ -36,22 +36,28 @@
 
 # 14/10/2026
 
-## Designed profile page in figma ✅
+## Designed profile page in figma. ✅
 
-## Create user-profile.html file ✅
+## Create user-profile.html file. ✅
 
 # 15/10/2026
 
-## Create profile page ✅
+## Create profile page. ✅
 
 # 17/10/2026
 
-## Displaying the username in the user profile section and changing the username ✅
+## Displaying the username in the user profile section and changing the username. ✅
 
-## Displaying the date the user joined the app ✅
+## Displaying the date the user joined the app. ✅
 
 # 18/10/2026
 
-## Changing the name with a pannle
+## Changing the name with a panel. ✅
 
-## Level section with a checkmark and border
+## Level section with a checkmark and border. ✅
+
+# 19/10/2026
+
+## Add README. ✅
+
+## Add LinguBoost to the Portfolio. ✅
