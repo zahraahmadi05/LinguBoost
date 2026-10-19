@@ -34,6 +34,10 @@
 
 ### ![LinguBoost](imgs/linguboost-mobile.png)
 
+# Getting started
+
+### git clone https://github.com/zahraahmadi05/LinguBoost.git
+
 # 📄 LICENSE
 
 ### MIT
