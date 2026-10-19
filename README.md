@@ -20,7 +20,7 @@
 
 ### Displaying the date the user joined the app.
 
-### Changing the name with a pannle.
+### Changing the name with a panel.
 
 # 🛠️ Built With
 
@@ -34,6 +34,6 @@
 
 ### ![LinguBoost](imgs/linguboost-mobile.png)
 
-# 📄 LICENCE
+# 📄 LICENSE
 
 ### MIT
