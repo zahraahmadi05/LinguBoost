@@ -61,3 +61,7 @@
 ## Add README. ✅
 
 ## Add LinguBoost to the Portfolio. ✅
+
+# 20/10/2026
+
+## Designing today's word in figma
