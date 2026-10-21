@@ -1,0 +1,102 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LinguBoost</title>
+    <link rel="icon" href="icons/books-sprout-illustration.svg" />
+    <link href="./dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="mx-auto w-full max-w-md min-h-dvh bg-white">
+      <section class="min-h-dvh flex flex-col p-6 pb-22">
+        <header class="flex flex-col">
+          <a href="home.html" class="w-fit">
+            <img
+              src="icons/back-arrow.png"
+              alt="back-to-home"
+              class="w-9 h-9 rounded-full"
+            />
+          </a>
+          <div class="flex items-center gap-1 mt-4">
+            <span id="user-name" class="text-[#29075F] text-2xl">Friend</span>
+            <img src="icons/sun.svg" alt="" class="w-7 h-7" />
+          </div>
+        </header>
+
+        <article
+          class="mt-10 flex flex-col gap-4 rounded-2xl border border-[#BFC4C2] bg-white p-6"
+        >
+          <h2 id="word" class="text-3xl text-[#0E0687]">Serene</h2>
+          <span
+            id="word-type"
+            class="self-start rounded-full bg-[#CACDFA] px-4 py-2 text-[#3B41F4]"
+            >adjective</span
+          >
+          <p id="word-maening" class="text-[#3F66D0]">
+            calm, peaceful, and untroubled
+          </p>
+          <hr class="border-[#A89E9E]" />
+          <div class="flex items-center gap-3 rounded-2xl bg-[#dce6fc] p-4">
+            <img src="icons/quote.png" alt="" class="w-10 h-10 shrink-0" />
+            <p id="word-example" class="text-[#0D43C0]">
+              The lake was so serene in the early morning light.
+            </p>
+          </div>
+        </article>
+
+        <div class="flex justify-center pt-10">
+          <button
+            id="done-word-btn"
+            type="button"
+            aria-label="I got this word"
+            class="cursor-pointer"
+          >
+            <img src="icons/check.png" alt="" class="rounded-full w-14 h-14" />
+          </button>
+        </div>
+
+        <nav
+          class="fixed bottom-0 left-1/2 w-full max-w-md -translate-x-1/2 border-t border-gray-300 bg-white"
+        >
+          <div class="flex justify-around py-2">
+            <a href="home.html" class="flex flex-col items-center">
+              <img src="icons/home.png" alt="" class="w-10 h-10 rounded-full" />
+              <p class="text-[#1D0555] text-sm font-medium">Home</p>
+            </a>
+            <a href="practice.html" class="flex flex-col items-center">
+              <img
+                src="icons/practice.png"
+                alt=""
+                class="w-10 h-10 rounded-full"
+              />
+              <p class="text-[#1D0555] text-sm font-medium">Practice</p>
+            </a>
+            <a href="progress.html" class="flex flex-col items-center">
+              <img
+                src="icons/progres.png"
+                alt=""
+                class="w-10 h-10 rounded-full"
+              />
+              <p class="text-[#1D0555] text-sm font-medium">Progress</p>
+            </a>
+            <a href="more.html" class="flex flex-col items-center">
+              <img
+                src="icons/more-menu.png"
+                alt=""
+                class="w-10 h-10 rounded-full"
+              />
+              <p class="text-[#1D0555] text-sm font-medium">More</p>
+            </a>
+          </div>
+        </nav>
+      </section>
+    </main>
+  </body>
+</html>
