@@ -15,6 +15,16 @@ const addBtn = document.getElementById("add-btn");
 const goalProgress = document.getElementById("goal-progress");
 const goalDone = document.getElementById("goal-done");
 
+const massage = document.getElementById("massage");
+const donePaper = document.getElementById("done-paper");
+
+const wordDoneDate = localStorage.getItem("wordDoneDate");
+
+if (wordDoneDate === today) {
+  massage.textContent = "You got today's word";
+  donePaper.classList.remove("hidden");
+}
+
 const today = new Date().toDateString();
 const savedDate = localStorage.getItem("learnedDate");
 
@@ -27,7 +37,7 @@ const savedLearned = localStorage.getItem("learned");
 let learned = Number(savedLearned) || 0;
 const goal = 10;
 
-function updatGoal() {
+function updateGoal() {
   const percent = Math.min((learned / goal) * 100, 100);
   console.log(percent);
 
@@ -48,7 +58,7 @@ addBtn.addEventListener("click", function () {
 
   localStorage.setItem("learned", learned);
 
-  updatGoal();
+  updateGoal();
 });
 
-updatGoal();
+updateGoal();
