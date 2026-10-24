@@ -4,7 +4,7 @@ const doneBtn = document.getElementById("done-word-btn");
 
 doneBtn.addEventListener("click", function () {
   const today = new Date().toDateString();
-  localStorage.setItem("wordDoneBtn", today);
+  console.log(today);
+  localStorage.setItem("wordDoneDate", today);
   window.location.href = "home.html";
 });
-
