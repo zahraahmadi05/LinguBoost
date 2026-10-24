@@ -69,3 +69,17 @@
 # 21/10/2026
 
 ## Create today's word page
+
+# 24/10/2026
+
+## Create words file for today's word.
+
+## Adding JavaScript to navigate to the "Word of the Day" page.
+
+## Marking the "Word of the Day" as learned.
+
+## Returning to the previous page.
+
+## Updating the card text: a new day, a new word.
+
+## Recording today's date upon marking the word as learned (if marked today, the current date is saved, preventing the "Word of the Day" from being learned again).
