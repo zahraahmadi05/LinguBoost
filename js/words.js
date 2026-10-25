@@ -1,11 +1,84 @@
 const words = [
+  // ---------- beginner (10) ----------
+  {
+    word: "Borrow",
+    type: "verb",
+    meaning: "To take something from someone and give it back later",
+    example: "Can I borrow your pen for a minute?",
+    level: "beginner",
+  },
+  {
+    word: "Customer",
+    type: "noun",
+    meaning: "A person who buys goods or services from a shop or business",
+    example: "The customer asked for a bigger size.",
+    level: "beginner",
+  },
+  {
+    word: "Delicious",
+    type: "adjective",
+    meaning: "Having a very pleasant taste or smell",
+    example: "The soup was delicious, so I asked for more.",
+    level: "beginner",
+  },
+  {
+    word: "Journey",
+    type: "noun",
+    meaning: "The act of traveling from one place to another",
+    example: "The journey to the mountains took five hours.",
+    level: "beginner",
+  },
+  {
+    word: "Neighbor",
+    type: "noun",
+    meaning: "A person who lives next to you or very near you",
+    example: "Our neighbor waters our plants when we travel.",
+    level: "beginner",
+  },
+  {
+    word: "Favorite",
+    type: "adjective",
+    meaning: "Liked more than all others of the same kind",
+    example: "Blue is my favorite color.",
+    level: "beginner",
+  },
+  {
+    word: "Prepare",
+    type: "verb",
+    meaning: "To make something ready for use or for a future event",
+    example: "I need to prepare dinner before our guests arrive.",
+    level: "beginner",
+  },
+  {
+    word: "Quiet",
+    type: "adjective",
+    meaning: "Making very little or no noise",
+    example: "The library is quiet in the morning.",
+    level: "beginner",
+  },
+  {
+    word: "Remember",
+    type: "verb",
+    meaning: "To keep something in your mind and not forget it",
+    example: "I can't remember where I put my keys.",
+    level: "beginner",
+  },
+  {
+    word: "Wake up",
+    type: "phrasal verb",
+    meaning: "To stop sleeping",
+    example: "I usually wake up at seven o'clock.",
+    level: "beginner",
+  },
+
+  // ---------- intermediate (10) ----------
   {
     word: "Clever",
     type: "adjective",
     meaning:
       "Having or showing the ability to learn and understand things quickly and easily",
     example: "Judy has never been very clever, but she tries hard.",
-    level: "Intermediate",
+    level: "intermediate",
   },
   {
     word: "Bargain",
@@ -13,7 +86,7 @@ const words = [
     meaning: "To discuss the price of something to come to an agreement",
     example:
       "The vendor usually asks a high price for his vegetables, so try to bargain the price down.",
-    level: "Intermediate",
+    level: "intermediate",
   },
   {
     word: "Budget",
@@ -21,7 +94,7 @@ const words = [
     meaning: "A sum of money to be used for a purpose",
     example:
       "We are planning to decorate our house, but we have a tight budget because we already spent a lot of money on holidays.",
-    level: "Intermediate",
+    level: "intermediate",
   },
   {
     word: "Turn on",
@@ -29,6 +102,121 @@ const words = [
     meaning: "To switch on a light, a machine or an electrical device",
     example:
       "Turn on the bluetooth speaker so we can listen to some music and dance.",
-    level: "Intermediate",
+    level: "intermediate",
+  },
+  {
+    word: "Serene",
+    type: "adjective",
+    meaning: "Calm, peaceful, and untroubled",
+    example: "The lake was so serene in the early morning light.",
+    level: "intermediate",
+  },
+  {
+    word: "Reliable",
+    type: "adjective",
+    meaning: "Able to be trusted to do what is expected",
+    example: "He is a reliable friend who always keeps his promises.",
+    level: "intermediate",
+  },
+  {
+    word: "Improve",
+    type: "verb",
+    meaning: "To become better, or to make something better",
+    example: "Reading every day will improve your vocabulary.",
+    level: "intermediate",
+  },
+  {
+    word: "Challenge",
+    type: "noun",
+    meaning: "Something difficult that tests your ability or determination",
+    example: "Learning a new language is a big challenge, but it is rewarding.",
+    level: "intermediate",
+  },
+  {
+    word: "Look forward to",
+    type: "phrasal verb",
+    meaning: "To feel happy and excited about something that will happen",
+    example: "I am looking forward to our trip next month.",
+    level: "intermediate",
+  },
+  {
+    word: "Opportunity",
+    type: "noun",
+    meaning: "A chance to do something good or useful",
+    example: "This job is a great opportunity to learn new skills.",
+    level: "intermediate",
+  },
+
+  // ---------- advanced (10) ----------
+  {
+    word: "Meticulous",
+    type: "adjective",
+    meaning: "Very careful and giving great attention to detail",
+    example: "She is meticulous about checking every number in her reports.",
+    level: "advanced",
+  },
+  {
+    word: "Ambiguous",
+    type: "adjective",
+    meaning: "Having more than one possible meaning",
+    example: "His answer was ambiguous, so nobody knew what he really wanted.",
+    level: "advanced",
+  },
+  {
+    word: "Reluctant",
+    type: "adjective",
+    meaning: "Not willing to do something, and therefore slow to do it",
+    example: "He was reluctant to speak in front of the whole class.",
+    level: "advanced",
+  },
+  {
+    word: "Thrive",
+    type: "verb",
+    meaning: "To grow, develop, or be very successful",
+    example: "Some plants thrive in shade, while others need full sun.",
+    level: "advanced",
+  },
+  {
+    word: "Inevitable",
+    type: "adjective",
+    meaning: "Certain to happen and impossible to avoid",
+    example: "With so much traffic, being late was inevitable.",
+    level: "advanced",
+  },
+  {
+    word: "Resilient",
+    type: "adjective",
+    meaning: "Able to recover quickly after difficult situations",
+    example: "Children are often more resilient than adults expect.",
+    level: "advanced",
+  },
+  {
+    word: "Come across",
+    type: "phrasal verb",
+    meaning: "To find or meet someone or something by chance",
+    example: "I came across an old photo while cleaning my room.",
+    level: "advanced",
+  },
+  {
+    word: "Elaborate",
+    type: "verb",
+    meaning: "To explain something in more detail",
+    example: "Could you elaborate on your idea a little more?",
+    level: "advanced",
+  },
+  {
+    word: "Overwhelm",
+    type: "verb",
+    meaning:
+      "To affect someone so strongly that they cannot think or react clearly",
+    example: "The amount of homework began to overwhelm him.",
+    level: "advanced",
+  },
+  {
+    word: "Eloquent",
+    type: "adjective",
+    meaning: "Able to speak or write in a clear and convincing way",
+    example: "The mayor gave an eloquent speech about teamwork.",
+    level: "advanced",
   },
 ];
