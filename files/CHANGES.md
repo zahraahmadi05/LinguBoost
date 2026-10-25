@@ -83,3 +83,9 @@
 ## Updating the card text: a new day, a new word.
 
 ## Recording today's date upon marking the word as learned (if marked today, the current date is saved, preventing the "Word of the Day" from being learned again).
+
+# 25/10/2026
+
+## Display the username on the "Word of the Day" page.
+
+## Display words based on the date (if the date is new, a new word is displayed).
