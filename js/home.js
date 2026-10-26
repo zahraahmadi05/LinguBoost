@@ -38,7 +38,7 @@ if (wordDoneDate === today) {
 
 const savedLearned = localStorage.getItem("learned");
 let learned = Number(savedLearned) || 0;
-const goal = 10;
+const goal = 12;
 
 function updateGoal() {
   const percent = Math.min((learned / goal) * 100, 100);
