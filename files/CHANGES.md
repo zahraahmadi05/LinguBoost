@@ -89,3 +89,7 @@
 ## Display the username on the "Word of the Day" page.
 
 ## Display words based on the date (if the date is new, a new word is displayed).
+
+# 27/10/2026
+
+## Designing the vocabulary section in Figma.
