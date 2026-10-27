@@ -605,6 +605,12 @@
   .pt-10 {
     padding-top: calc(var(--spacing) * 10);
   }
+  .pb-4 {
+    padding-bottom: calc(var(--spacing) * 4);
+  }
+  .pb-8 {
+    padding-bottom: calc(var(--spacing) * 8);
+  }
   .pb-20 {
     padding-bottom: calc(var(--spacing) * 20);
   }
@@ -696,8 +702,14 @@
   .text-\[\#498AC8\] {
     color: #498AC8;
   }
+  .text-\[\#601de8\] {
+    color: #601de8;
+  }
   .text-\[\#000850\] {
     color: #000850;
+  }
+  .text-\[\#5213e4\] {
+    color: #5213e4;
   }
   .text-\[\#010834\] {
     color: #010834;
@@ -737,6 +749,12 @@
   }
   .text-\[\#A687AC\] {
     color: #A687AC;
+  }
+  .text-\[\#f5f0ff\] {
+    color: #f5f0ff;
+  }
+  .text-blue-200 {
+    color: var(--color-blue-200);
   }
   .text-blue-600 {
     color: var(--color-blue-600);
