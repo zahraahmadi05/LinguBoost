@@ -13,5 +13,61 @@
       rel="stylesheet"
     />
   </head>
-  <body></body>
+  <body>
+    <main class="mx-auto w-full max-w-md min-h-dvh bg-white">
+      <section class="min-h-dvh flex flex-col p-6 pb-22">
+        <header>
+          <a href="home.html" class="inline-block">
+            <img
+              src="icons/arrow-back.svg"
+              alt="Back to home"
+              class="w-10 h-10"
+            />
+          </a>
+          <div class="mt-4 flex items-center gap-4">
+            <img
+              src="icons/vocabulary-book.png"
+              alt=""
+              class="w-18 h-18 shrink-0"
+            />
+            <div>
+              <h1 class="text-3xl text-[#051070]">Vocabulary</h1>
+              <p class="text-lg text-[#498AC8]">Build your word bank 🌱</p>
+            </div>
+          </div>
+        </header>
+
+        <div class="flex bg-[#DEE5FD] rounded-2xl mt-6 items-center gap-4 p-4">
+          <img
+            src="icons/book-logo.png"
+            alt="logo"
+            class="w-24 h-24 shrink-0 object-contain"
+          />
+          <div class="flex flex-col gap-2">
+            <p class="text-[#2B48D6] text-base"></p>
+              Small words. <br />
+              Big opportunities.
+            </p>
+            <p class="text-[#8A6C9D] text-sm">
+              Expand your vocabulary, <br />
+              Expand your world.
+            </p>
+          </div>
+        </div>
+
+        <h1 class="mt-4 text-xl text-[#010834]">Categories</h1>
+
+        <div class="mt-4 grid grid-cols-3 gap-3">
+          <a href="vocabulary-category.html?cat=programming" class="flex flex-col rounded-2xl bg-[#DEE5FF] border border-[#7881FB] p-2 items-center">
+            <img src="icons/programming.png" alt="" class="w-10 h-10 shrink-0">
+            <span class="text-[#5044FA] text-xs mt-1">Programming</span>
+            <div class="mt-auto flex w-full items-end justify-between pt-2">
+              <span data-count="programming" class="text-[#7394EF] text-xs self-start">24 Words</span>
+            <img src="icons/arrow-right.svg" alt="" class="w-5 h-5">
+            </div>
+          </a>
+        </div>
+      </section>
+    </main>
+  </body>
 </html>
