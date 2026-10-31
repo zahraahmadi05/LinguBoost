@@ -226,6 +226,24 @@
   .z-50 {
     z-index: 50;
   }
+  .container {
+    width: 100%;
+    @media (width >= 40rem) {
+      max-width: 40rem;
+    }
+    @media (width >= 48rem) {
+      max-width: 48rem;
+    }
+    @media (width >= 64rem) {
+      max-width: 64rem;
+    }
+    @media (width >= 80rem) {
+      max-width: 80rem;
+    }
+    @media (width >= 96rem) {
+      max-width: 96rem;
+    }
+  }
   .mx-auto {
     margin-inline: auto;
   }
@@ -249,6 +267,15 @@
   }
   .mt-auto {
     margin-top: auto;
+  }
+  .mr-4 {
+    margin-right: calc(var(--spacing) * 4);
+  }
+  .ml-4 {
+    margin-left: calc(var(--spacing) * 4);
+  }
+  .ml-10 {
+    margin-left: calc(var(--spacing) * 10);
   }
   .ml-auto {
     margin-left: auto;
@@ -492,11 +519,17 @@
   .border-\[\#4BDE43\] {
     border-color: #4BDE43;
   }
+  .border-\[\#5FE815\] {
+    border-color: #5FE815;
+  }
   .border-\[\#65CDEF\] {
     border-color: #65CDEF;
   }
   .border-\[\#68D8D6\] {
     border-color: #68D8D6;
+  }
+  .border-\[\#81A7F1\] {
+    border-color: #81A7F1;
   }
   .border-\[\#666\] {
     border-color: #666;
@@ -521,6 +554,9 @@
   }
   .border-\[\#D585F5\] {
     border-color: #D585F5;
+  }
+  .border-\[\#\] {
+    border-color: #;
   }
   .border-gray-300 {
     border-color: var(--color-gray-300);
@@ -639,6 +675,9 @@
   .px-1 {
     padding-inline: var(--spacing);
   }
+  .px-2 {
+    padding-inline: calc(var(--spacing) * 2);
+  }
   .px-4 {
     padding-inline: calc(var(--spacing) * 4);
   }
@@ -647,6 +686,9 @@
   }
   .px-10 {
     padding-inline: calc(var(--spacing) * 10);
+  }
+  .py-1 {
+    padding-block: var(--spacing);
   }
   .py-2 {
     padding-block: calc(var(--spacing) * 2);
@@ -736,6 +778,9 @@
   .text-\[\#1E0367\] {
     color: #1E0367;
   }
+  .text-\[\#1F82FB\] {
+    color: #1F82FB;
+  }
   .text-\[\#2B48D6\] {
     color: #2B48D6;
   }
@@ -757,6 +802,9 @@
   .text-\[\#040D61\] {
     color: #040D61;
   }
+  .text-\[\#082DC0\] {
+    color: #082DC0;
+  }
   .text-\[\#498AC8\] {
     color: #498AC8;
   }
@@ -768,6 +816,9 @@
   }
   .text-\[\#5044FA\] {
     color: #5044FA;
+  }
+  .text-\[\#5288D4\] {
+    color: #5288D4;
   }
   .text-\[\#7394EF\] {
     color: #7394EF;
