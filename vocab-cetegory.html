@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LinguBoost</title>
+    <link rel="icon" href="icons/book-logo.png" />
+    <link href="./dist/output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <main class="mx-auto w-full max-w-md min-h-dvh bg-white">
+      <section class="flex flex-col p-6">
+        <header>
+          <a href="vocabulary.html">
+            <img
+              src="icons/arrow-back.svg"
+              alt="Back to vocabulary"
+              class="w-10 h-10"
+            />
+          </a>
+          <div class="mt-4 flex items-center gap-4">
+            <img
+              id="category-icon"
+              src="icons/programming.png"
+              alt=""
+              class="w-16 h-16 shrink-0"
+            />
+            <div class="flex flex-col gap-2">
+              <h1 id="category-title" class="text-[#100695] text-3xl">
+                Programming
+              </h1>
+              <span id="word-count" class="text-[#7394EF]">24 Words</span>
+            </div>
+          </div>
+        </header>
+
+        <div
+          class="bg-[#DEE5FD] flex rounded-2xl items-center justify-between mt-6 p-4"
+        >
+          <p id="category-tagline" class="text-[#0F33E6] text-lg">
+            Learn the language <br />
+            of the future.
+          </p>
+          <img src="icons/laptop.png" alt="" class="w-20 h-20 shrink-0" />
+        </div>
+
+        <ul id="word-list" class="mt-6 flex flex-col gap-4"></ul>
+      </section>
+    </main>
+  </body>
+</html>
