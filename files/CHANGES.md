@@ -93,3 +93,17 @@
 # 27/10/2026
 
 ## Designing the vocabulary section in Figma.
+
+# 28/10/2026
+
+## Creating the vocabulary section
+
+# 31/10/2026
+
+## Creating a vocabulary page when a category is selected
+
+# 01/11/2026
+
+## Creating the vocabulary js file
+
+## I got a ReferenceError for (id===catId)
