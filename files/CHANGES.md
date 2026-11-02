@@ -107,3 +107,9 @@
 ## Creating the vocabulary js file
 
 ## I got a ReferenceError for (id===catId)
+
+# 02/11/2026
+
+## Add js for show selected category
+
+## Add design words
