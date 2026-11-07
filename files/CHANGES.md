@@ -113,3 +113,9 @@
 ## Add js for show selected category
 
 ## Add design words
+
+# 07/11/2026
+
+## Add terms related to science and art
+
+## Display all terms in the selected category
