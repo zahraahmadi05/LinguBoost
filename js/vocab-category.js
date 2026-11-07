@@ -2,6 +2,7 @@ const categoryIconEl = document.getElementById("category-icon");
 const categoryTitleEl = document.getElementById("category-title");
 const wordCountEl = document.getElementById("word-count");
 const categoryTaglineEl = document.getElementById("category-tagline");
+const categoryTextIconEl = document.getElementById("text-icon");
 const wordListEl = document.getElementById("word-list");
 
 const params = new URLSearchParams(window.location.search);
@@ -25,6 +26,8 @@ if (!category) {
   });
   categoryTitleEl.textContent = category.title;
   categoryTaglineEl.textContent = category.tagline;
+  categoryTextIconEl.src = category.icon;
   wordCountEl.textContent = `${categoryWords.length} words`;
   categoryIconEl.src = category.img;
+  categoryIconEl.alt = category.title;
 }

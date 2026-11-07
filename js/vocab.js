@@ -10,6 +10,7 @@ const categories = [
     title: "Design",
     tagline: "See the world through a designer's eyes",
     img: "icons/design.png",
+    icon: "icons/designer.png",
   },
 ];
 
