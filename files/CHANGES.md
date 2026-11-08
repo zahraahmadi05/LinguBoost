@@ -119,3 +119,9 @@
 ## Add terms related to science and art
 
 ## Display all terms in the selected category
+
+# 08/11/2026
+
+## Changing icons
+
+## Writing JS code to mark a word from the selected category as "learned"
