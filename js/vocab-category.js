@@ -48,7 +48,7 @@ function createWordCard(item) {
               <span
                 class="flex w-8 h-8 items-center justify-center rounded-full border-2 border-[#6EE615]"
               >
-                <img src="icons/checked.png" alt="" class="w-6 h-6 ${isLearned ? "" : "hidden"}" />
+                <img src="icons/check.png" alt="" class="w-6 h-6 ${isLearned ? "" : "hidden"}" />
               </span>
             </button>
           </li>
