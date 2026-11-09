@@ -1,5 +1,4 @@
 const categories = [
-  { variable: true, loop: true },
   {
     id: "programming",
     title: "Programming",
