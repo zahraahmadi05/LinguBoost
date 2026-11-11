@@ -125,3 +125,17 @@
 ## Changing icons
 
 ## Writing JS code to mark a word from the selected category as "learned"
+
+# 09/11/2026
+
+## Creating category cards from data
+
+# 10/11/2026
+
+## Replacing the old logo with the new one
+
+## Changing the project name
+
+# 11/11/2026
+
+## Add more categories

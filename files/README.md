@@ -1,43 +1,49 @@
-# LinguBoost
+# LingoBoost
 
-### A mobile-first, fully offline language learning app. Vocabulary, flashcards, and conversation practice, built differently from the apps you already know.
+## A mobile-first, offline-capable web app for learning English vocabulary. Browse words by category, read meanings and examples, and tick the words you've learned — your progress stays saved in the browser.
 
 # ✨Features
 
-### Vocabulary learning: Build your word bank at your own pace, with a learning flow that goes beyond the usual list-and-quiz format.
+## - 📚 25 vocabulary categories and 3,000+ words, each with type, meaning and an example sentence.
 
-### Flashcards: Review words with flashcards designed for quick, focused sessions.
+## - 🗂️ Categories grid generated from data, with a live word count per card.
 
-### Conversation practice: Rehearse real-life dialogues so the words you learn actually turn into things you can say.
+## - ✅ Mark words as learned; the state persists after refresh (localStorage).
 
-### Mobile only: Built purely for phones. There is intentionally no desktop version, so every screen, gesture, and interaction is designed for touch.
+## - 📱 Mobile-only layout with a purple/blue palette and 3D glossy icons.
 
-### Saved name retrieval: Reads the user's saved name from localStorage.
+## - 📴 Works offline (all data is local, no API calls).
 
-### Personalized display: Shows the saved name in place of the user's default username.
+# 🧱 Tech Stack
 
-### Goal bar: The bar's width updates dynamically as the numbers change, and the numbers themselves update over time.
+## HTML5
 
-### Displaying the date the user joined the app.
+## Tailwind CSS v4 (CLI)
 
-### Changing the name with a panel.
+## JavaScript (ES6+)
 
-# 🛠️ Built With
+## localStorage for learned-word progress
 
-### HTML
-
-### Tailwind CSS
-
-### JavaScript
+## VS Code + Live Server for development, Figma for design
 
 # 🖼️ Screenshot
 
-### ![LinguBoost](imgs/linguboost-mobile.png)
+### ![LingoBoost](imgs/linguboost-mobile.png)
 
-# Getting started
+# 🛠️ Getting Started
 
-### git clone https://github.com/zahraahmadi05/LinguBoost.git
+## bash
 
-# 📄 LICENSE
+# 1. Install dependencies
 
-### MIT
+## npm install
+
+# 2. Start the Tailwind watcher (needed for classes used inside JS strings)
+
+## npx @tailwindcss/cli -i ./css/input.css -o ./css/output.css --watch
+
+# 3. Open the project with VS Code Live Server
+
+# 📄 License
+
+## Personal learning project. Choose a license (e.g. MIT) before publishing.
